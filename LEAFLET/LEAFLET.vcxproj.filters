@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{26ba89e3-a058-4cef-9818-5b6bc3480cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\img">
+      <UniqueIdentifier>{2cc8af29-a9d9-46cb-a8cb-21affc623acc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="routes.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="data\point .js" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.html">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.css">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="about.html">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="about.css">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reviews.html">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reviews.css">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contact.html">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contact.css">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\nav.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\truck.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
